@@ -11,7 +11,7 @@ Typical Device Breakpoints
 * Grandes telas: acima de 1200px
  */
 
-@media screen and (min-width: 768px) and (max-width: 992px){ /* versão para TABLET */
+@media screen and (min-width: 768px) and (max-width: 992px){ /* CONFIGURAÇÃO / versão para TABLET */
     
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
@@ -20,6 +20,7 @@ Typical Device Breakpoints
     
     section#login {
         width: 80vw;
+        height: 280PX;
        
     }
 
@@ -35,7 +36,7 @@ Typical Device Breakpoints
 
     }
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) { /* CONFIGURAÇÕES / versão para DESKTOP e telas Grandes */
 
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
@@ -44,6 +45,8 @@ Typical Device Breakpoints
 
     section#login {
         width: 950px;
+        height: 320px;
+
     }
     section#login > div#imagem {
         float: right;
@@ -60,8 +63,9 @@ Typical Device Breakpoints
     }
 
     div#formulario > p {
-        font-size: 1.2em;
-        font-style: italic;
+        font-size: 1em;
+        margin: 15px 0px;
+        
         
     }
 }
